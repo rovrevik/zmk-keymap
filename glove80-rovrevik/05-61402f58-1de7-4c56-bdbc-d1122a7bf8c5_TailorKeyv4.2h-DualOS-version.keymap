@@ -100,7 +100,7 @@
 
 &msc_input_listener {
     // LAYER_MouseSlow
-    //
+    // 
     LAYER_MouseSlow {
         layers = <8>;
         input-processors = <&zip_scroll_scaler 1 9>;
