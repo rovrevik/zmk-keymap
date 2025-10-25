@@ -2,22 +2,23 @@
   "keyboard": "glove80",
   "firmware_api_version": "1",
   "locale": "en-US",
-  "uuid": "99629bef-ecfe-4782-8899-3261274172fa",
-  "parent_uuid": "d91e89dd-b317-4664-9805-d05b9dd36805",
+  "uuid": "179300bf-aec6-456c-84d2-5c33d5be91b0",
+  "parent_uuid": "9e138e97-4ef5-4850-a79e-b99989c613b8",
   "unlisted": false,
-  "date": 1749670016,
+  "date": 1756469598,
   "creator": "moosy",
-  "title": "TailorKey Zero v4.2g - Dual OS version",
-  "notes": "🧿TKZ42gDUAL: https://sites.google.com/view/keyboards/glove80_tailorkey\nThis is an advanced example layout demonstrating the use of macros, combos, hold taps and other advanced features to support:\n- Home-row modifiers (HRM)\n- Autoshift\n- Symbol, Cursor and Gaming Layers\n- Advanced Mouse Emulation\n- Combo keys\n\nNote on Mouse emulation:\nMouse emulation requires firmware version v25.01, and HID_POINTING needs to be enabled under Advanced Configuration.\nIf you're using Glove80 firmware with mouse emulation for the first time, you'll need to unpair it from all host computers and re-pair it.\n\nThis layout (TailorKey Zero) is developed by @moosy. Further information is available on https://sites.google.com/view/keyboards/glove80_tailorkey\nTailorKey is inspired by the fully featured Glorious Engrammer, developed by @sunaku. Please see https://github.com/sunaku/glove80-keymaps/releases for the Glorious Engrammer layout.\n\nTIP: Want to use only a part of this layout (like Home-row mods or Autoshift)? Just copy that specific layer, and the associated macros and hold-tap actions will come along automatically. \nSee how it's done here:  https://www.youtube.com/watch?v=m72eTAEUWho\n",
+  "title": "TailorKey v4.2h - Dual OS version",
+  "notes": "🧿TK42hDUAL: https://sites.google.com/view/tailorkey\nTailorKey is a zero-code layout for the Glove80, inspired by Sunaku’s Glorious Engrammer and created for the default QWERTY keycap layout. It’s easily adjustable, free from Custom Defined Behaviors, and includes:\n• Home-row modifiers (HRM)\n• Autoshift\n• Symbol, Cursor, and Gaming Layers\n• Advanced Mouse Emulation\n• Combo Keys\n\n🖱️Mouse Emulation\nEnable mouse emulation by turning on the HID_POINTING option under Advanced Configuration.\nIf you’re using mouse emulation for the first time, unpair the keyboard from all host computers and then re-pair it.\n\nThis zero-code layout is developed by @moosy. More information is available on https://sites.google.com/view/tailorkey\nTailorKey is inspired by the fully featured Glorious Engrammer, developed by @sunaku. Please see https://github.com/sunaku/glove80-keymaps/releases for the Glorious Engrammer layout.\n\n💡 Tip: Want to use only part of this layout (like Home-Row Mods or AutoShift)? Just copy the relevant layer—its associated macros and hold-tap actions will be included automatically.\n📺 See how it's done here:  https://www.youtube.com/watch?v=m72eTAEUWho\n",
   "tags": [
     "qwerty",
     "tailorkey",
     "linux",
     "windows",
     "dualos",
-    "tkz42dual",
     "mac",
-    "tkx42g"
+    "tk42dual",
+    "tk42h",
+    "macos"
   ],
   "custom_defined_behaviors": "",
   "custom_devicetree": "",
@@ -1594,215 +1595,100 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "EQUAL",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N1",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N2",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N3",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N4",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N5",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N6",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N7",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N8",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N9",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N0",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "MINUS",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "Q",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "W",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "E",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "R",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "T",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "Y",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "U",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "I",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "O",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "P",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "BSLH",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
@@ -1845,22 +1731,12 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "G",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "H",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&kp",
@@ -1899,67 +1775,24 @@
         ]
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "SQT",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "GRAVE",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "Z",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "X",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "C",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "V",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "B",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
@@ -1986,56 +1819,7 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "N",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "M",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "COMMA",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "DOT",
-            "params": []
-          }
-        ]
-      },
-      {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "FSLH",
-            "params": []
-          }
-        ]
-      },
-      {
         "value": "&trans",
-        "params": []
-      },
-      {
-        "value": "&magic",
         "params": []
       },
       {
@@ -2087,22 +1871,44 @@
         "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "LBKT",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
       },
       {
-        "value": "&kp",
-        "params": [
-          {
-            "value": "RBKT",
-            "params": []
-          }
-        ]
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
+      },
+      {
+        "value": "&trans",
+        "params": []
       },
       {
         "value": "&trans",
@@ -9082,7 +8888,7 @@
         "&kp",
         "&kp"
       ],
-      "tappingTermMs": 260,
+      "tappingTermMs": 280,
       "flavor": "tap-preferred",
       "quickTapMs": 300,
       "requirePriorIdleMs": 150,
@@ -9326,7 +9132,7 @@
         "&kp",
         "&kp"
       ],
-      "tappingTermMs": 260,
+      "tappingTermMs": 280,
       "flavor": "tap-preferred",
       "quickTapMs": 300,
       "requirePriorIdleMs": 150,
